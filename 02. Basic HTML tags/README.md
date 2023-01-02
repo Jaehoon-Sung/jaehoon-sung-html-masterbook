@@ -51,6 +51,30 @@ Most HTML tags have a start tag and an end tag like `<h1>Hi! This is heading 1!<
 
 We can say there is a `<html>` element which contains the whole information of the document. We can also say that there are some `<meta>` elements in `<head>` element! Even though `<head>` element has an end tag, each `<meta>` element in `<head>` element does not have an end tag. There is also a `<body>` tag, and `<h1>` and `<p>` elements in it. Looking at the `<p>` element, we can see a `<br/>` element which does not have an end tag!
 
-So, can we just understand that HTML `element` is same as HTML `tag`? Roughly, maybe YES. But, technically NO!
+So, can we just understand that HTML `element` is same as HTML `tag`? Roughly, maybe YES. But, technically NO!  
+In this masterbook, I might use `element` with `tag` explaining my notes. :)
 
-## Basic HTML tags
+## Basic HTML tags : <h1> to <h6> / <p> / <a> / <img>
+
+`<h1>` to `<h6>`tags describes any contents for headings, and `<p>` is the tag to declare the paragraph. See that there is a line-break and margin between the first paragraph and the second paragraph, even though there is no `<br>` between `<p>` tags. This is because `<p>` element is actually a block element. The difference between `block` and `inline` elements is covered in my css masterbook.
+
+Below are the screenshot of the `01-basic-html-tags.html` file and how it looks on the chrome browser.
+
+Let's see how the `<a>` tag looks.
+
+```
+<a href="wwww.google.com">Go to Google</a>
+```
+
+In the start tag, there is some additional information called `href`. Any keywords like `href` are called HTML `attribute`. HTML `attribute` exists to provide additional information for HTML element. HTML `attribute` must be in the start tag, and the structure of HTML `attribute` is declared as `attribute-name = attribute-value`. For the example above, `<a>` element has an attribute called `href`, and the value of `attribute` is `www.google.com`.
+
+There are actually two types of HTML `attribute`. One is a `global` attribute, and the other is a `local` attribute. `global` attribute is an attribute which can be used in any HTML element. `local` attribute is that used in some certain HTML elements.
+
+Now, we might be able to analyze `<img>` tag more easily.
+
+```
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub-Cat-Logo" />
+<img src="./GitHub_Logo.png" alt="GitHub-Alphabet-Logo" />
+```
+
+`src` is an attribute which takes the address of the image to be displayed, and `alt` is an attribute to provide short (but `alt`ernative) description of the image. This description will be displayed on the browser when the brower fails to load the corresponding image. In addtion, `alt` is a very important attribute for web accessibility. A screen reader for blind people reads the image information contained in this `alt` attribute.
