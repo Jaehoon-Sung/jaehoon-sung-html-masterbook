@@ -54,7 +54,7 @@ We can say there is a `<html>` element which contains the whole information of t
 So, can we just understand that HTML `element` is same as HTML `tag`? Roughly, maybe YES. But, technically NO!  
 In this masterbook, I might use `element` with `tag` explaining my notes. :)
 
-## Basic HTML tags : <h1> to <h6> / <p> / <a> / <img>
+## Basic HTML tags \: \<h1\> to \<h6\> / \<p\> / \<a\> / \<img\>
 
 `<h1>` to `<h6>`tags describes any contents for headings, and `<p>` is the tag to declare the paragraph. See that there is a line-break and margin between the first paragraph and the second paragraph, even though there is no `<br>` between `<p>` tags. This is because `<p>` element is actually a block element. The difference between `block` and `inline` elements is covered in my css masterbook.
 
