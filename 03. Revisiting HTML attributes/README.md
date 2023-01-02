@@ -87,4 +87,4 @@ Below are some HTML elements which contain their local attributes.
 
 ## Do we memorize all of these global and local attributes?
 
-** NO! ** We cannot memorize them. This is just to let you know that there are two types of attributes, `global` and `local`, and show some examples for each.
+**NO!** We cannot memorize them. This is just to let you know that there are two types of attributes, `global` and `local`, and show some examples for each.
