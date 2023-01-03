@@ -11,23 +11,35 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes
 
 ### draggable
 
-`<h1 draggable="true">You can drag this paragraph.</h1>`  
+```
+<h1 draggable="true">You can drag this paragraph.</h1>
+```  
+
 `draggable` is the attribute which allows you to "drag" the selected element. This can be useful when you want to implement some drag events.
 
 ### lang
 
-`<p lang="ko">이 문장은 한국어로 쓰였습니다.</p>`  
+```
+<p lang="ko">이 문장은 한국어로 쓰였습니다.</p>
+``` 
+
 `lang="ko"` means that the element is written in Korean. "이 문장은 한국어로 쓰였습니다" is a real sentence which means "This sentence is written in Korean"! :) This `lang` attribute is useful to help define the language of the element and assist search engines to analyze the webpage contents.
 
 ### hidden
 
-`<p hidden>You cannot see this contents!</p>`  
-`<p hidden="true">You cannot see this contents, too!</p>`  
+```
+<p hidden>You cannot see this contents!</p>
+<p hidden="true">You cannot see this contents, too!</p>
+```
+
 If you add `hidden` attribute, the element is not visible on the browser. You can just add `hidden` in a start tag, or gives `true` as a value of `hidden` attribute.
 
 ### id
 
-`<p id="must be unique">This paragraph has an id!</p>`
+```
+<p id="must be unique">This paragraph has an id!</p>
+```
+
 `id` is an attribute to specify HTML element you want to visit. Here, `id` must be unique, because you will call this attribute when you want to visit the specfic and unique HTML element having this `id`. Let's see another example where `id` attribute is used below.
 
 ```
