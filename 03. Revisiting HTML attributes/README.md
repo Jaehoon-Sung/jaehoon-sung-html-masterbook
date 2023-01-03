@@ -53,13 +53,15 @@ When a screen reader encounters `user ID <input type="text" id="userId" />`, it 
 
 `contenteditable` allows the user to edit the contents in the element, and `spellcheck` allows the user to see the red squiggly line for misspelled words.
 
+### style
+
 ```
 <p style="color: red; background-color: yellow">Can you see me?</p>
 ```
 
-### tabindex
-
 `style` allows the programmar to design the HTML element. It gives an inline CSS style for an element. Practically, we control the design and styles for HTML elements using `CSS`. This inline CSS styling should be avoided.
+
+### tabindex
 
 ```
 <a href="" tabindex="1">Google</a>
@@ -84,6 +86,12 @@ Below are some HTML elements which contain their local attributes.
 <img src="../02. Basic HTML tags/GitHub_Logo.png" alt="Github logo" width="50%" height="auto" />
 <img src="../02. Basic HTML tags/GitHub_Logo.png" alt="Github logo" width="100px" height="auto" />
 ```
+
+## Style attributes
+
+`style` attribute is used to style HTML elements. As mentioned above, we are strongly encouraged to control the design and styles of HTML elements using `CSS` external file, not inline CSS styling using `style` attribute.
+
+Please see `04-style-attributes.html` to see some inline CSS style. If you want to learn about inline CSS, internal CSS, and external CSS styles, please see my css-masterbook.
 
 ## Do we memorize all of these global and local attributes?
 
